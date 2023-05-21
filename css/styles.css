@@ -920,6 +920,19 @@ border: 1px solid #e7e9fc;
     padding: 0;
   }
 
+  .modal-close-btn:hover {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+  }
+
+  .modal-close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+  }
+    
+
   .icon-close-modal:hover,
   .icon-close-modal:focus {
     background-color: #404bbf;
