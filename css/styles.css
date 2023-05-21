@@ -139,7 +139,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #404bbf;
+    color: #2E2F42;
     /*position: relative;*/
     padding-top: 24px;
     padding-bottom: 24px;
@@ -159,7 +159,7 @@ img {
     background-color: #404bbf;
     visibility: hidden;
     transform: scaleX(0);
-    transition: all 0.3s ease-in-out;
+    /* transition: all 0.3s ease-in-out; */
 }
 
 .menu_link:after {
@@ -559,7 +559,7 @@ margin-bottom: 72px;
     align-items: center;
     justify-content: center;
     color: #8e8f99;
-    border: 1px solid #8e8f99
+    border: 1px solid #8e8f99;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -796,7 +796,7 @@ border: 1px solid #e7e9fc;
 
 .card {
     width: calc((100% - 48px) / 3);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);  */
 }
 
 
@@ -836,6 +836,18 @@ border: 1px solid #e7e9fc;
 }
 
 .wrapper_overlay:focus .overlay {
+    transform: translateY(0%);
+    transition-duration: 250ms;
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card_caption_portfolio:hover .overlay{
+    transform: translateY(0%);
+    transition-duration: 250ms;
+    cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card_caption_portfolio:focus .overlay{
     transform: translateY(0%);
     transition-duration: 250ms;
     cubic-bezier(0.4, 0, 0.2, 1);
