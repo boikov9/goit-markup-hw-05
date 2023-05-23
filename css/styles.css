@@ -907,7 +907,7 @@ border: 1px solid #e7e9fc;
   .modal {
     position: absolute;
     width: 408px;
-    min-height: 576px;
+    min-height: 584px;
     top: 50%;
     left: 50%;
     background-color: #FCFCFC;
