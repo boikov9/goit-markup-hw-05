@@ -944,16 +944,16 @@ border: 1px solid #e7e9fc;
     border: none;
     fill: #ffffff
   }
+
+  .modal
     
 
-  /* .icon-close-modal:hover,
-  .icon-close-modal:focus {
-    background-color: #404bbf;
-    border: none; 
-  } */
+  .icon-close-modal{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  } 
 
-  .modal-close-btn:hover .icon-close-modal,
-  .modal-close-btn:focus .icon-close-modal {
+  .modal-close-btn:hover ,
+  .modal-close-btn:focus  {
     fill: #ffffff;
     background-color: #404bbf;
     border: none;
