@@ -977,7 +977,7 @@ border: 1px solid #e7e9fc;
     pointer-events: none;
   }
   
-  .modal_header {
+  .modal_paragraph {
     position: absolute;
     font-family: 'Roboto', sans-serif ;
     font-style: normal;
@@ -997,10 +997,20 @@ border: 1px solid #e7e9fc;
     margin-top: 16px;
   }
 
-  .form-wrapper,
+  .form-wrapper {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .form-comment-wrapper {
+    display: block;
+    margin-bottom: 16px;
+  }
+
   .form-field-checkbox {
     display: block;
     margin-bottom: 8px;
+    
   }
 
   .form-input {
@@ -1009,6 +1019,9 @@ border: 1px solid #e7e9fc;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;  
     padding-left: 38px;
+    outline: transparent;
+    border-color: #4D5AE5;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .form-description {
@@ -1026,7 +1039,6 @@ border: 1px solid #e7e9fc;
   .form-comment {
     width: 100%;
     height: 120px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px; 
     padding-left: 16px;
     padding-right: 16px;
@@ -1034,11 +1046,17 @@ border: 1px solid #e7e9fc;
     padding-bottom: 8px;
     resize: none;
     line-height: 1.4;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.2);
+    background-color: transparent;
+    outline: transparent; 
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .form-label {
-    
-  }
+
 
   .form-input-icon {
     position: absolute;
@@ -1052,6 +1070,7 @@ border: 1px solid #e7e9fc;
 
   .input-icon-wrapper {
      position: relative;
+
   }
 
   .form-input:focus + .form-input-icon {
@@ -1074,6 +1093,18 @@ border: 1px solid #e7e9fc;
   cursor: pointer;
   appearance: none;
   position: absolute;
+  margin-bottom: 24px;
+  visibility: hidden;
+}
+
+.checkbox-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    
+
+
 }
 
 /* font-family: 'Roboto', sans-serif;
@@ -1121,6 +1152,7 @@ font-size: 12px;
 line-height: 14px;
 letter-spacing: 0.04em;
 color: #8E8F99;
+
 }
 
 .privacy_policy {
