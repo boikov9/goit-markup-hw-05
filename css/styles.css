@@ -948,7 +948,9 @@ border: 1px solid #e7e9fc;
     fill: #ffffff
   }
 
-  .modal
+  .modal {
+    padding: 72px 24px 24px 24px;
+  }
     
 
   .icon-close-modal{
@@ -981,11 +983,12 @@ border: 1px solid #e7e9fc;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-right: 24px;
+    margin-bottom: ;
   }
 
   .modal-contact-form {
@@ -994,7 +997,7 @@ border: 1px solid #e7e9fc;
     margin-top: 16px;
   }
 
-  .form-label-wrapper,
+  .form-wrapper,
   .form-field-checkbox {
     display: block;
     margin-bottom: 8px;
@@ -1009,11 +1012,12 @@ border: 1px solid #e7e9fc;
   }
   
   .form-description {
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
     margin-bottom: 4px;
