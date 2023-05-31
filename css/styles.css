@@ -1145,9 +1145,6 @@ border: 1px solid #e7e9fc;
     align-items: center; 
     justify-content: center; 
     fill: transparent;
-    
-
-
 }
 
 .form-own-checkbox {
@@ -1183,7 +1180,7 @@ border: 1px solid #e7e9fc;
 }
 
 .form-checkbox:checked + .checkbox-label > .span-checkbox {
-    background-color: #404bbf; 
+    background-color: #404bbf; ; 
     fill: white;
     border: none;
     }
@@ -1202,9 +1199,9 @@ border: 1px solid #e7e9fc;
 
 }
 
-.privacy_policy {
+.privacy-policy {
     margin-left: 6px;
-    color:#4d5ae5;
+    color:#4d5ae5; 
 }
 
 .form-submit-button {
